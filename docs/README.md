@@ -4,20 +4,20 @@
 ## Пример вызова функций
 
 ### Круг
-circle.area(r = 10) >> 314.1592653589793
-circle.perimeter(r = 10) >> 62.83185307179586
+circle.area(r = 10) >> 314.1592653589793 \n
+circle.perimeter(r = 10) >> 62.83185307179586 \n
 
 ### Квадрат
-square.area(a = 10) >> 100
-square.perimeter(a = 10) >> 40
+square.area(a = 10) >> 100 \n
+square.perimeter(a = 10) >> 40 \n
 
 ### Прямоугольник
-rectangle.area(a = 10, b = 12) >> 120
-rectangle.perimeter(a = 10, b = 12) >> 44 
+rectangle.area(a = 10, b = 12) >> 120 \n
+rectangle.perimeter(a = 10, b = 12) >> 44 \n
 
 ### Треугольник
-triangle.area(a = 10, h = 12) >> 60
-triangle.perimeter(a = 10, b = 12, c = 13) >> 35
+triangle.area(a = 10, h = 12) >> 60 \n
+triangle.perimeter(a = 10, b = 12, c = 13) >> 35 \n
 
 ## Commit history - история коммитов
 * 8b787ea (HEAD -> doc) added file triangle.py
