@@ -2,7 +2,7 @@ import unittest
 
 def area(a, b): 
     '''
-    Принимает :
+    Принимает : 
 
         a(float): 1 сторону прямоугольника
 
