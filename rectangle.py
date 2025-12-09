@@ -1,3 +1,5 @@
+import unittest
+
 def area(a, b): 
     '''
     Принимает :
@@ -33,3 +35,17 @@ def perimeter(a, b):
         perimeter(10,12) вернёт 44
     '''
     return 2*(a + b) 
+
+class RectangleTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+       res = area(10, 0)
+       self.assertEqual(res, 0)
+       
+    def test_square_mul(self):
+       res = area(10, 10)
+       self.assertEqual(res, 100)
+    
+    def test_perimeter(self):
+        res = perimeter(4,5)
+        self.assertEqual(res, 18)
+
